@@ -6,4 +6,4 @@
   <% end %>
 </ul>
 
-<%= link_to "delete", article_path(@article) %>
+<%= link_to "delete tag", tag_path(@tag), method: :delete, data: {confirm: "Really delete tag?"} %>
