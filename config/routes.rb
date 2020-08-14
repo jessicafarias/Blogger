@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   end
   resources :tags
   resources :taggings, only: [:destroy]
+  resources :authors
 end
