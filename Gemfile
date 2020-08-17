@@ -11,13 +11,16 @@ gem 'sorcery'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3', '~> 1.4'
 
-group :development, :test do
-  gem 'sqlite3'
- end
- #sudo apt-get install libpq-dev
- group :production do
-   gem 'pg'
- end
+# group :development, :test do
+#   #gem 'sqlite3'
+#   gem 'pg'
+#  end
+#  #sudo apt-get install libpq-dev
+#  group :production do
+#    gem 'pg'
+#  end
+
+gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
